@@ -1,0 +1,15 @@
+{
+    "name": "DEG.HeadsetDetector.Examples",
+    "references": [
+        "GUID:b2dfc4f817754f54b98a8c5bc92e975a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
