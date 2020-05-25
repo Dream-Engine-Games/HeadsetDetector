@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
+using System.Runtime.InteropServices;
 
 namespace DEG.HeadsetDetector
 {
 	public static class DEGHDIos
 	{
-
+        
 #if UNITY_IOS && !UNITY_EDITOR
 		[DllImport ("__Internal")]
 		static private extern int _Detect();
