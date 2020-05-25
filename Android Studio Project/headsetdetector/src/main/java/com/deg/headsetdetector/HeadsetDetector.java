@@ -21,7 +21,7 @@ public class HeadsetDetector {
         //2 = Bluetooth
         if(audioManager.isWiredHeadsetOn())
             return 1;
-        if(audioManager.isBluetoothScoOn() || audioManager.isBluetoothScoOn())
+        if(audioManager.isBluetoothScoOn() || audioManager.isBluetoothA2dpOn())
             return 2;
         return 0;
     }
